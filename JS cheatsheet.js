@@ -140,12 +140,17 @@ console.log(typeof "hello");
 
 ////////////////////////////////
 // Destructuring Assignment
+<<<<<<< HEAD
 ( test = { a: 10, b: 20, c: 30, d: 40 });
+=======
+({ a, b, ...rest } = { a: 10, b: 20, c: 30, d: 40 });
+>>>>>>> 67a641917a2f5d59ffe12857b34e2a06c8e52f5d
 console.log(a);
 console.log(b);
 console.log(rest);
 
 ////////////////////////////////
+<<<<<<< HEAD
 // Spread Operator
 
 const arr = [7, 8, 9];
