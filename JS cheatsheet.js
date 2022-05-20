@@ -13,7 +13,7 @@ let x = 1;
 
 // Var
 
-// Not Recommended To Be Used 
+// Not Recommended To Be Used
 var x = 1;
 
 ///////////////////////////
@@ -104,9 +104,8 @@ const myFunction = (a, b) => a * b;
 console.log(1 === 1);
 
 // Loose Equality
-// Not Recommended To Be Used 
-console.log(1 == '1');
-
+// Not Recommended To Be Used
+console.log(1 == "1");
 
 ////////////////////////////////
 // Dates
@@ -117,11 +116,11 @@ const date = new Date();
 ////////////////////////////////
 // Strict InEquality Operator
 
-console.log('1' !==  1);
+console.log("1" !== 1);
 
 // Loose InEquality Operator
 
-console.log('1' !=  1);
+console.log("1" != 1);
 
 ////////////////////////////////
 //Strict Equality Comparison Operator
@@ -137,6 +136,13 @@ console.log(1 == 1);
 // Typeof
 
 // Typeof Show What DataType It Is
-console.log(typeof 'hello');
+console.log(typeof "hello");
+
+////////////////////////////////
+// Destructuring Assignment
+({ a, b, ...rest } = { a: 10, b: 20, c: 30, d: 40 });
+console.log(a);
+console.log(b);
+console.log(rest);
 
 ////////////////////////////////
