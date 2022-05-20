@@ -140,9 +140,22 @@ console.log(typeof "hello");
 
 ////////////////////////////////
 // Destructuring Assignment
-({ a, b, ...rest } = { a: 10, b: 20, c: 30, d: 40 });
+( test = { a: 10, b: 20, c: 30, d: 40 });
 console.log(a);
 console.log(b);
 console.log(rest);
+
+////////////////////////////////
+// Spread Operator
+
+const arr = [7, 8, 9];
+
+// Bad Array
+const badNewArr = [1, 2, arr[0], arr[1], arr[2]];
+console.log(badNewArr);
+
+// Better Array
+const newArr = [1, 2, ...arr];
+console.log(newArr);
 
 ////////////////////////////////
