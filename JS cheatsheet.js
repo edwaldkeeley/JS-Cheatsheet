@@ -169,3 +169,9 @@ console.log(letters);
 console.log(...str);
 
 ////////////////////////////////
+// OR Operator
+
+// Accept Truthy Value
+console.log(true || false);
+
+////////////////////////////////
