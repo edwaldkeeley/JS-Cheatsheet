@@ -161,4 +161,11 @@ const newArr = [1, 2, ...arr];
 console.log(newArr);
 
 ////////////////////////////////
-//
+// Spread Operator
+
+const str = 'noob';
+const letters = [...str, ' ', 'S.'];
+console.log(letters);
+console.log(...str);
+
+////////////////////////////////
