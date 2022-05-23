@@ -175,3 +175,8 @@ console.log(...str);
 console.log(true || false);
 
 ////////////////////////////////
+// Nullish Coalecing Operator
+
+const test = null ?? 10;
+
+////////////////////////////////
