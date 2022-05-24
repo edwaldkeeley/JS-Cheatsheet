@@ -180,3 +180,12 @@ console.log(true || false);
 const test = null ?? 10;
 
 ////////////////////////////////
+// For of Loop
+
+const menu = [test1, test2, test3, test4];
+
+// Will put All the Array Element Seperately On A String On the Console
+// Just Like Saying console.log('test1', ...)
+for (const item of menu) console.log(item);
+
+////////////////////////////////
