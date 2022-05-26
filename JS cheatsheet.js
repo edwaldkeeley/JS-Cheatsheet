@@ -203,3 +203,13 @@ const Sets = new Set([
 console.log(Sets); // Sets Are Unique And They Will Remove Duplicates
 
 /////////////////////////////////
+// Maps
+
+const Test = new Map([
+  ['question', 'What is the best programming language in the world?'],
+  [1, 'C'],
+  [2, 'Java'],
+  [3 , 'JavaScript'], // The Numbers Are Keys Like Object
+]);
+
+//////////////////////////////////
