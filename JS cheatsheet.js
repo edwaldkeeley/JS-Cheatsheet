@@ -213,3 +213,18 @@ const Test = new Map([
 ]);
 
 //////////////////////////////////
+// .toLowerCase() - .ToUpperCase() 
+
+//  Makes Every Text Lowercase
+const test = 'Test1'.toLowerCase();
+
+//  Makes Every Text Uppercase
+const test2 = 'Test1'.toUpperCase();
+
+//////////////////////////////////
+// .trim()
+
+// Removes Whitespace on both sides of a string
+const test = '     Test1   '.trim();
+
+//////////////////////////////////
