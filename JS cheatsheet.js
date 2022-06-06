@@ -228,4 +228,12 @@ const test2 = 'Test1'.toUpperCase();
 const test = '     Test1   '.trim();
 
 //////////////////////////////////
-///
+// toString()
+
+// this Number Will Be Converted To A String
+const Number = 10;
+
+// Converted To A String
+const string = Number.toString();
+
+//////////////////////////////////
