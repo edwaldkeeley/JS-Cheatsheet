@@ -237,4 +237,46 @@ const Number = 10;
 const string = Number.toString();
 
 //////////////////////////////////
+// forEach()
 
+// Example
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+movements.forEach(function(mov, index ) {
+  if (mov > 0) {
+  console.log(`You Deposit ${index + 1}: ${mov}`);
+  } else {
+      console.log(`You Withdrew ${index + 1}: ${Math.abs(mov)}`);
+  }
+});
+
+//////////////////////////////////
+// .map()
+
+// Example
+
+// NOTE: .map() Returns A New Array
+// NOTE: .map() Does Not Change The Original Array
+const movements = movements.map(
+  (mov, i) =>
+    `Movement ${i + 1}: You ${mov > 0 ? 'deposited' : 'withdrew'} ${Math.abs(
+      mov
+    )}`
+); 
+
+//////////////////////////////////
+// .filter()
+
+// Example
+
+let TestArr = [-1, 2, 3, 4, -5, 6, 7, 8, -9, 10];
+
+// NOTE: .filter() Returns A New Array
+// NOTE: .filter() Does Not Change The Original Array
+// NOTE: .filter() Returns A New Array
+// NOTE: .filter() Creates A New Array And The Only Values That Pass The Test Are Stored In The New Array
+const Test = movements.filter(function (mov) {
+  return mov < 0;
+});
+
+////////////////////////////////////
