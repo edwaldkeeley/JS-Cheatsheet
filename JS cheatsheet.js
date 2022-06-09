@@ -280,3 +280,15 @@ const Test = movements.filter(function (mov) {
 });
 
 ////////////////////////////////////
+// .reduce()
+
+// Example
+const test = [1, 2, 3, 4, 5];
+
+// NOTE: .reduce() use The Array Elements To Create A Single Value
+const test = test.reduce(function (acc, cur, i) {
+  console.log(`Iteration ${i}: ${acc}`);
+  return acc + cur;
+}, 0);
+
+////////////////////////////////////
