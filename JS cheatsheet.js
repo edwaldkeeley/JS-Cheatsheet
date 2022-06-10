@@ -292,3 +292,22 @@ const test = test.reduce(function (acc, cur, i) {
 }, 0);
 
 ////////////////////////////////////
+// Prefix Increment Operator
+
+// Example
+let test = 0;
+
+// Increments The Value By 1
+
+// Normal Increment
+
+// NOTE: Increments The Value By 1
+// NOTE: The Value Will Be 1 but It Will Not Be 1 Because You Need Console.log To See The Value
+test++;
+
+// Prefix Increment
+// NOTE: Increments The Value By 1
+// NOTE: It will be 1 And You Will See 1 Unlike The Normal Increment
+++test;
+
+////////////////////////////////////
