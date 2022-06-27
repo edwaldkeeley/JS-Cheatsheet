@@ -311,3 +311,61 @@ test++;
 ++test;
 
 ////////////////////////////////////
+// ClassList
+
+// NOTE: Classlist Is a Part Of The DOM
+
+// Example
+const test = document.querySelector('#test');
+
+// In the CSS
+// .test1 {
+//   background-color: red;
+// }
+
+// this will add the class test1 to the element
+test.classList.add('test1');
+
+////////////////////////////////////
+// setTimeout()
+
+// Example
+setTimeout(function () {
+  console.log('test');
+  // The 1000 Is The Time In Milliseconds 1000 = 1 second
+}, 1000);
+
+////////////////////////////////////
+// setInterval()
+
+// Example
+setInterval(function () {
+  console.log('test');
+  // The 1000 Is The Time In Milliseconds 1000 = 1 second
+  // This Will Run Every Second because 1000 = 1 second
+  // setInterval() Will Keep Running
+}, 1000);
+
+////////////////////////////////////
+// clearInterval()
+
+// Example
+const test = setInterval(function () {
+  console.log('test');
+}, 1000);
+
+// NOTE: clearInterval() Will Stop The Interval
+clearInterval(test);
+
+////////////////////////////////////
+// clearTimeout()
+
+// Example
+const test = setTimeout(function () {
+  console.log('test');
+}, 1000);
+
+// Same as clearInterval()
+clearTimeout(test);
+
+////////////////////////////////////
